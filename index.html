@@ -62,6 +62,7 @@
       display: block;
       top: 0;
       margin: 0 auto;
+      margin-top: 48px;
       width: 640px;
       height: 480px;
       border: 0;
@@ -175,11 +176,15 @@
           </form>
         </div>
         <div id="enterNameContainer">
-          <label id="enterNameInstruction">
-            You must set a nickname before you can chat. (wip)
+          <span id="enterNameInstruction">
+            You must set a nickname before you can chat.
             <br>
-            Max 7 characters. Enter numbers and latin letters only.
-          </label>
+            <small>
+			  * Maximum 7 characters
+              <br>
+              * Alphanumeric characters only
+            </small>
+          </span>
           <form action="javascript:chatNameCheck()">
             <input id="nameInput" type="text" autocomplete="off" maxlength="7"></input>
           </form>
