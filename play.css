@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Gothic';
-  src: url('fonts/ms-gothic.woff2') format('woff2'),
-       url('fonts/ms-gothic.woff') format('woff');
+  font-family: 'PGothic';
+  src: url('fonts/ms-pgothic.woff2') format('woff2'),
+       url('fonts/ms-pgothic.woff') format('woff');
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 html, input[type='text'] {
-  font-family: 'MS Gothic', 'Gothic';
+  font-family: 'MS PGothic', 'PGothic';
   font-size: 16px;
 }
 
